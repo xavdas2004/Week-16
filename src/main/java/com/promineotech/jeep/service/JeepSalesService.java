@@ -9,5 +9,5 @@ import com.promineotech.jeep.entity.JeepModel;
 public interface JeepSalesService{
 List<Jeep> fetchJeeps(JeepModel model, String trim);
 
-List<Jeep> fetchJeeps(String model, String trim);
+//List<Jeep> fetchJeeps(String model, String trim);
 }

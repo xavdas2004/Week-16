@@ -26,5 +26,6 @@ public class FetchJeepTestSupport extends BaseTest {
 					.build());
 			//@formatter:on
 			return list;
+			
 		}
 	}
