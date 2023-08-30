@@ -32,7 +32,7 @@ class FetchJeepTest extends FetchJeepTestSupport{
 	}*/
 	@Disabled
 	@Test
-	void testThatJeepsAreReturnedWhenAValidModelAndTrimAreSupplied() {
+	void fetchJeepTest() {	
 		JeepModel model = JeepModel.WRANGLER;
 		String trim = "Sport";
 		String uri = String.format("http://localhost:%d/jeeps?model=%s&trim=%s", getBaseUri(), model, trim);

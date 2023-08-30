@@ -56,8 +56,4 @@ public class DefaultJeepSalesDao implements JeepSalesDao {
         	  }});
     }
 
-	/*
-	 * @Override public List<Jeep> fetchJeeps(String model, String trim) { // TODO
-	 * Auto-generated method stub return null; }
-	 */
 }
